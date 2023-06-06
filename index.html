@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LINK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- CDN VUE JS-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <title>Protoapp</title>
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <div class="hero overflow-hidden position-relative">
+      <div class="position-absolute top-0 end-0 hero__imgLeaves">
+        <img src="./assets/bg-leaves.svg" alt="bg-leaves" />
+      </div>
+
+      <div class="container hero__main position-relative">
+        <nav class="py-2 d-flex align-items-center gap-4" id="nav">
+          <a
+            class="d-flex align-items-center gap-2 text-dark text-decoration-none"
+            href="/"
+          >
+            <img class="nav__logo" src="./assets/logo1.svg" alt="logo" />
+            <span class="fs-5 fw-normal">Protoapp</span>
+          </a>
+
+          <a>{{navLinks}}</a>
+        </nav>
+
+        <div
+          class="hero__content position-absolute top-50 start-0 translate-middle-y"
+          id="hero-content"
+        >
+          <h1 class="display-4">{{heroTitle}}</h1>
+          <p class="fs-5 fw-light">{{heroDescription}}</p>
+          <button class="btn btn-primary rounded-1 py-2 px-3">
+            {{heroBtn}}
+          </button>
+        </div>
+
+        <div
+          class="border-top border-bottom position-absolute bottom-0 start-50 translate-middle-x w-100 py-4"
+        >
+          <div class="d-flex justify-content-center gap-4">
+            <img src="./assets/badge.play-store.svg" alt="google-play-store" />
+            <img src="./assets/badge.app-store.svg" alt="google-play-store" />
+          </div>
+        </div>
+      </div>
+
+      <div class="position-absolute bottom-0 hero__imgDecals" style="left: -5%">
+        <img src="./assets/bg-decals.svg" alt="bg-leaves" />
+      </div>
+    </div>
+
+    <!-- SECTION 1 -->
+    <section class="container section1" id="section_1">
+      <div class="section1__head d-grid justify-content-center">
+        <h1 class="text-center display-6 fw-bold">{{section_1_title}}</h1>
+        <p class="fs-5 text-center fw-light section_1_description">
+          {{section_1_description}}
+        </p>
+      </div>
+
+      <div class="section1__content">
+        <div class="row gx-5 section1__row" style="row-gap: 4rem">
+          <!-- 1ST ROW -->
+          <div class="col-12 col-md-6 section1__col" style="margin-left: -2rem">
+            <div
+              class="section1__dicover d-grid justify-content-end"
+              id="first_row"
+            >
+              <h4 class="fw-bold text-end">Discover</h4>
+              <p class="text-end fs-6">
+                The app lorem ipsum is common placeholder text used to
+                demonstrate the graphic elements of a document or visual
+                presentation.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              class="section1__img"
+              src="./assets/product-search.svg"
+              alt="product-search"
+            />
+          </div>
+
+          <!-- 2ND ROW -->
+          <div
+            class="col-12 col-md-6 section1__col section1__order"
+            style="margin-left: -2rem"
+          >
+            <div class="d-flex justify-content-end section1__2ndRow">
+              <img
+                class="section1__img"
+                src="./assets/product-smartphone.svg"
+                alt="product-search"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="section1__dicover d-grid justify-content-start">
+              <h4 class="fw-bold text-start">Augmented</h4>
+              <p class="text-start fs-6">
+                Word salad often arouses curiosity due to its seemingly
+                intelligent and taseful play on words
+              </p>
+            </div>
+          </div>
+
+          <!-- 3RD ROW -->
+          <div
+            class="col-12 col-md-6 section1__col order-3"
+            style="margin-left: -2rem"
+          >
+            <div class="section1__dicover d-grid justify-content-end">
+              <h4 class="fw-bold text-end">
+                Endless <br />
+                Possibilities
+              </h4>
+              <p class="text-end fs-6">
+                Management Systems shouldn't be a bore. Run out of words? heres
+                some lorem ipsum. Lorem insum dolor sit.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 order-4">
+            <img
+              class="section1__img"
+              src="./assets/product-work.svg"
+              alt="product-search"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEEP DIVE. READY? -->
+    <div class="apps position-relative">
+      <div class="position-absolute end-0 apps__img" style="top: -3rem">
+        <img src="./assets/bg-decals2.svg" alt="leaves" />
+      </div>
+
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="container py-5">
+          <div class="d-grid justify-content-center">
+            <h1 class="fw-bold text-light text-center">Deep dive. Ready?</h1>
+            <p class="fs-5 text-center text-light fw-light">
+              So are we. Unless. You're. Not. Word filler.
+            </p>
+
+            <div class="d-flex justify-content-center gap-4 mt-5">
+              <img
+                src="./assets/badge.play-store.svg"
+                alt="google-play-store"
+              />
+              <img src="./assets/badge.app-store.svg" alt="google-play-store" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="position-relative">
+      <div class="container cards py-5" id="action">
+        <div>
+          <h1 class="text-center display-6 fw-bold">{{actionTitle}}</h1>
+          <p class="fs-5 text-center fw-light section_1_description">
+            {{actionDesc}}
+          </p>
+        </div>
+
+        <div class="row g-3 mt-4">
+          <div class="col-12 col-md-6">
+            <div class="card p-4 cards__automation border-0 rounded-4">
+              <div class="row g-5">
+                <div class="col-12 col-md-12 col-lg-5">
+                  <div class="d-grid justify-content-center">
+                    <img
+                      class="cards__img"
+                      src="./assets/badge.laravel-mix.svg"
+                      alt="badge-laravel"
+                    />
+
+                    <div class="d-flex justify-content-center mt-4">
+                      <h6
+                        class="text-center p-1 text-light mb-0 rounded-5 cards__title"
+                      >
+                        AUTOMATION
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-7">
+                  <p class="text-light mb-0">ROLL OUT</p>
+                  <h3 class="text-light">Automatic Prototyping</h3>
+                  <p class="text-light mt-4">
+                    Webpack is the most powerful and flexible asset compilation
+                    tool available today. With that power, however, comes a
+                    certain level of complexity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card p-4 cards__simplicity border-0 rounded-4">
+              <div class="row g-5">
+                <div class="col-12 col-md-12 col-lg-5">
+                  <div class="d-grid justify-content-center">
+                    <img
+                      class="cards__img"
+                      src="./assets/badge.how-to-read-code.svg"
+                      alt="badge-laravel"
+                    />
+
+                    <div class="d-flex justify-content-center mt-4">
+                      <h6
+                        class="text-center p-1 text-light mb-0 rounded-5 cards__title"
+                      >
+                        SIMPLICITY
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-7">
+                  <p class="text-light mb-0">ROLL OUT</p>
+                  <h3 class="text-light">Automatic Prototyping</h3>
+                  <p class="text-light mt-4">
+                    Webpack is the most powerful and flexible asset compilation
+                    tool available today. With that power, however, comes a
+                    certain level of complexity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-absolute bottom-0 end-0">
+        <img
+          class="card__background"
+          src="./assets/bg-decals3.svg"
+          alt="bg-decals3"
+        />
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-dark py-5" id="footer">
+      <div class="container">
+        <div class="d-flex align-items-start gap-3">
+          <a
+            class="d-flex align-items-center gap-2 text-dark text-decoration-none"
+            href="/"
+          >
+            <img class="nav__logo" src="./assets/logo1.svg" alt="logo" />
+          </a>
+
+          <div class="d-grid">
+            <p class="text-light m-0 fw-semibold">Protoapp</p>
+            <p class="text-light m-0">Camp One Inc, LLC</p>
+            <p class="text-light footer__quote mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto quam ipsam sint, laudantium repellendus culpa
+              voluptatibus deserunt quo impedit itaque numquam porro commodi
+              neque ea reiciendis.
+            </p>
+          </div>
+        </div>
+
+        <p class="text-light mt-3">
+          &copy; 2019 Protoapp. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./js/index.js"></script>
+</html>

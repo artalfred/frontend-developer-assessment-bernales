@@ -1,0 +1,44 @@
+.section1 {
+  margin-top: 5rem;
+
+  &__head {
+    p {
+      max-width: 40rem;
+    }
+  }
+
+  &__content {
+    margin-top: 10rem;
+
+    @media (max-width: 767.98px) {
+      margin-top: 5rem;
+    }
+  }
+
+  &__dicover {
+    @media (max-width: 767.98px) {
+      justify-content: start !important;
+
+      h4 {
+        text-align: start !important;
+      }
+
+      p {
+        text-align: start !important;
+        max-width: 100% !important;
+      }
+    }
+
+    p {
+      max-width: 17rem;
+    }
+  }
+
+  &__img {
+    height: 18rem;
+
+    @media (max-width: 991.98px) {
+      height: 12rem;
+    }
+  }
+}

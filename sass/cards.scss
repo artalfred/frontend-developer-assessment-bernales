@@ -1,0 +1,35 @@
+@import "./general.scss";
+
+.cards {
+  margin-top: 3rem;
+  height: 50rem;
+
+  @media (max-width: 991.98px) {
+    height: 60rem;
+  }
+
+  @media (max-width: 767.98px) {
+    height: 87rem;
+  }
+}
+
+.cards__img {
+  height: 12rem;
+
+  @media (max-width: 1199.98px) {
+    height: 9rem;
+  }
+}
+
+.cards__title {
+  width: 8rem;
+  background: rgba($color: #000000, $alpha: 0.2);
+}
+
+.cards__automation {
+  background-color: $bg-warning;
+}
+
+.cards__simplicity {
+  background-color: $bg-secondary;
+}

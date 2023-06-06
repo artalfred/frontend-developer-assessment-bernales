@@ -1,0 +1,15 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles/style.css -w"
+  },
+  "author": "Art Alfred Bernales",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "save-dev": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,199 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.apps {
+  height: 28rem;
+  margin-top: 8rem;
+  background-color: #2541c6; }
+
+@media (max-width: 575.98px) {
+  .apps__img img {
+    height: 10rem !important; } }
+
+@media (max-width: 1399.98px) {
+  .hero__imgLeaves img {
+    height: 30rem; }
+  .hero__imgDecals img {
+    height: 20rem; } }
+
+@media (max-width: 1199.98px) {
+  .hero__imgLeaves img {
+    height: 25rem; }
+  .hero__imgDecals img {
+    height: 17rem; } }
+
+@media (max-width: 991.98px) {
+  .hero__imgLeaves img {
+    height: 20rem; }
+  .hero__imgDecals img {
+    height: 15rem; }
+  .section1__col {
+    margin-left: 0 !important; }
+  .card__background {
+    height: 12rem; } }
+
+@media (max-width: 767.98px) {
+  .section1__order {
+    order: 2; }
+  .section1__2ndRow {
+    justify-content: start !important; } }
+
+@media (max-width: 575.98px) {
+  .hero__imgLeaves img {
+    height: 15rem; }
+  .hero__imgDecals {
+    top: 65%; }
+  .hero__imgDecals img {
+    height: 10rem; } }
+
+@media (max-width: 425.98px) {
+  .hero__imgLeaves img {
+    height: 10rem; }
+  .hero__imgDecals {
+    top: 65%; }
+  .hero__imgDecals img {
+    height: 7rem;
+    left: 0 !important; }
+  .section1__img {
+    height: 9rem; }
+  .section1__row {
+    row-gap: 2rem !important; } }
+
+.hero__main {
+  height: 90vh; }
+
+.hero__content {
+  max-width: 40rem;
+  padding: 1rem; }
+  @media (max-width: 575.98px) {
+    .hero__content {
+      max-width: 30rem; } }
+  @media (max-width: 425.98px) {
+    .hero__content p {
+      font-size: 16px !important; } }
+
+.nav__logo {
+  height: 2.6rem; }
+
+.section1 {
+  margin-top: 5rem; }
+  .section1__head p {
+    max-width: 40rem; }
+  .section1__content {
+    margin-top: 10rem; }
+    @media (max-width: 767.98px) {
+      .section1__content {
+        margin-top: 5rem; } }
+  @media (max-width: 767.98px) {
+    .section1__dicover {
+      justify-content: start !important; }
+      .section1__dicover h4 {
+        text-align: start !important; }
+      .section1__dicover p {
+        text-align: start !important;
+        max-width: 100% !important; } }
+  .section1__dicover p {
+    max-width: 17rem; }
+  .section1__img {
+    height: 18rem; }
+    @media (max-width: 991.98px) {
+      .section1__img {
+        height: 12rem; } }
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.apps {
+  height: 28rem;
+  margin-top: 8rem;
+  background-color: #2541c6; }
+
+@media (max-width: 575.98px) {
+  .apps__img img {
+    height: 10rem !important; } }
+
+@media (max-width: 1399.98px) {
+  .hero__imgLeaves img {
+    height: 30rem; }
+  .hero__imgDecals img {
+    height: 20rem; } }
+
+@media (max-width: 1199.98px) {
+  .hero__imgLeaves img {
+    height: 25rem; }
+  .hero__imgDecals img {
+    height: 17rem; } }
+
+@media (max-width: 991.98px) {
+  .hero__imgLeaves img {
+    height: 20rem; }
+  .hero__imgDecals img {
+    height: 15rem; }
+  .section1__col {
+    margin-left: 0 !important; }
+  .card__background {
+    height: 12rem; } }
+
+@media (max-width: 767.98px) {
+  .section1__order {
+    order: 2; }
+  .section1__2ndRow {
+    justify-content: start !important; } }
+
+@media (max-width: 575.98px) {
+  .hero__imgLeaves img {
+    height: 15rem; }
+  .hero__imgDecals {
+    top: 65%; }
+  .hero__imgDecals img {
+    height: 10rem; } }
+
+@media (max-width: 425.98px) {
+  .hero__imgLeaves img {
+    height: 10rem; }
+  .hero__imgDecals {
+    top: 65%; }
+  .hero__imgDecals img {
+    height: 7rem;
+    left: 0 !important; }
+  .section1__img {
+    height: 9rem; }
+  .section1__row {
+    row-gap: 2rem !important; } }
+
+.cards {
+  margin-top: 3rem;
+  height: 50rem; }
+  @media (max-width: 991.98px) {
+    .cards {
+      height: 60rem; } }
+  @media (max-width: 767.98px) {
+    .cards {
+      height: 87rem; } }
+
+.cards__img {
+  height: 12rem; }
+  @media (max-width: 1199.98px) {
+    .cards__img {
+      height: 9rem; } }
+
+.cards__title {
+  width: 8rem;
+  background: rgba(0, 0, 0, 0.2); }
+
+.cards__automation {
+  background-color: #ffc107; }
+
+.cards__simplicity {
+  background-color: #17a2b8; }
+
+.footer__quote {
+  max-width: 27rem; }
